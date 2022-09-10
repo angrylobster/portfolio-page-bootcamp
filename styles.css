@@ -29,14 +29,14 @@ body {
 }
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 800px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-template-rows: auto;
 }
 
 .hero-image {
   height: 800px;
   object-fit: contain;
+  margin: 0 auto;
 }
 
 .hero-text-wrapper {
