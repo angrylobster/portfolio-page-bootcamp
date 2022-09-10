@@ -21,7 +21,7 @@ body {
 .nav-button-wrapper a {
   text-decoration: none;
   color: #444444;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 #hero-section {
@@ -48,23 +48,33 @@ body {
 
 .hero-text-wrapper h1 {
   font-size: 60px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .hero-text-wrapper h3 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #projects h1 {
+  margin: 32px 0;
   text-align:center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .project-card-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-column-gap: 24px;
+  row-gap: 24px;
   padding: 0 24px;
+}
+
+.project-card h3 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.project-card p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .project-card img {
